@@ -1,0 +1,30 @@
+{
+    "name": "yu/precision",
+    "description": "Plugin for Magento 2 removes decimal places in prices",
+    "version": "1.0.0",
+    "require": {
+        "php": "~5.6.5|7.0.2|7.0.4|~7.0.6|~7.1.0"
+    },
+    "type": "magento2-module",
+    "keywords": ["magento2","currency","precision"],
+    "authors": [
+        {
+            "name": "Yuriy Akishin",
+            "email": "yuriy.akishin@gmail.com"
+        }
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Yu\\Precision\\": ""
+        }
+    },
+    "repositories": [
+    {
+        "type": "composer",
+        "url": "https://repo.magento.com"
+    }
+  ]
+}
